@@ -13,7 +13,7 @@
                     <hr>
                     <h4 class="card-title">Email : {{ $adminData->email }}</h4>
                     <hr>
-                    <a herf="{{ route('edit.profile') }}" class="btn btn-info btn-rounded waves-effect waves-light">Edit Profile</a>
+                    <a herf="{{ route('edit.profile') }}" class="btn btn-info btn-rounded waves-effect waves-light" type="submit">Edit Profile</a>
                 </div>
             </div>
         </div>
