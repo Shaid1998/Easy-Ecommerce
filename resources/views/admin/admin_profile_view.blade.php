@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-lg-6">
             <div class="card">
-                <img class="rounded-circle avatar-x1" src="{{ (!empty($adminData->profile_image))? url('upload/admin/'.$adminData->profile_image):url('upload/no_image.jpg') }}" alt="Card image cap">
+                <img class="rounded-circle avatar-x1" src="{{ (!empty($adminData->profile_image))? url('upload/admin/'.$adminData->profile_image):url('upload/no_image.jpg') }}" alt="User Image">
                 <div class="card-body">
                     <h4 class="card-title">Userame : {{ $adminData->username }}</h4>
                     <hr>
