@@ -42,7 +42,7 @@
                         <div class="row mb-3"> 
                             <label for="example-text-input" class="col-sm-2 col-form-label"></label>
                             <div class="col-sm-10">
-                                <img class="rounded avatar-lg" id="imageShow" src="{{ asset('backend/assets/images/small/img-5.jpg') }}">
+                                <img class="rounded avatar-lg" id="imageShow" src="{{ (!empty($adminData->profile_image))? url('upload/admin/'.$adminData->profile_image):url('upload/no_image.jpg') }}">
                             </div>
                         </div>
                         <!-- end row -->
