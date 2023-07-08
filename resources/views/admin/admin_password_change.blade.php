@@ -9,26 +9,26 @@
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">Change Password Page </h4>
-                    <form method="post" action="{{ route('store.profile') }}">
+                    <form method="post" action="{{ route('update.password') }}">
                         @csrf
                         <div class="row mb-3">
                             <label for="example-text-input" class="col-sm-2 col-form-label">Old Password</label>
                             <div class="col-sm-10">
-                                <input class="form-control" name="oldpassword" type="text"  id="example-text-input">
+                                <input class="form-control" name="oldpassword" type="password"  id="oldpassword">
                             </div>
                         </div>
                         <!-- end row -->
                         <div class="row mb-3">
                             <label for="example-text-input" class="col-sm-2 col-form-label">New Password</label>
                             <div class="col-sm-10">
-                                <input class="form-control" name="newpassword" type="text"  id="example-text-input">
+                                <input class="form-control" name="newpassword" type="password"  id="newpassword">
                             </div>
                         </div>
                         <!-- end row -->
                         <div class="row mb-3">
                             <label for="example-text-input" class="col-sm-2 col-form-label">Confirm New Password</label>
                             <div class="col-sm-10">
-                                <input class="form-control" name="confirmnewpassword" type="text"  id="example-text-input">
+                                <input class="form-control" name="confirmnewpassword" type="password"  id="confirmnewpassword">
                             </div>
                         </div>
                         <!-- end row -->

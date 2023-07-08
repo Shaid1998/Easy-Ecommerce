@@ -68,5 +68,9 @@ class AdminController extends Controller
 
 
     }//End Method
+    public function UpdatePassword(Request $request){
+       
+
+    }//End Method
     
 }
