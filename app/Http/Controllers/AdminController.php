@@ -42,7 +42,7 @@ class AdminController extends Controller
         $Data->username = $request->username;
         
         if($request->file('profile_image')){
-            $file = $request.file('profile_image');
+            $file = $request->file('profile_image');
             $filename = date('YmdHi').$file->getClientOriginalName();
             $file->move(public_path('uploaded/admin'), $filename);
             $Data['profile_image'] = $filename;
