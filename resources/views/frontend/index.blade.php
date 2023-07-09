@@ -7,7 +7,7 @@
                     <div class="row align-items-center justify-content-center justify-content-lg-between">
                         <div class="col-lg-6 order-0 order-lg-2">
                             <div class="banner__img text-center text-xxl-end">
-                                <img src="assets/img/banner/banner_img.png" alt="">
+                                <img src="{{ asset('frontend/assets/img/banner/banner_img.png') }}" alt="">
                             </div>
                         </div>
                         <div class="col-xl-5 col-lg-6">
@@ -155,8 +155,8 @@
                                 </div>
                                 <div class="services__content">
                                     <div class="services__icon">
-                                        <img class="light" src="assets/img/icons/services_light_icon03.png" alt="">
-                                        <img class="dark" src="assets/img/icons/services_icon03.png" alt="">
+                                        <img class="light" src="{{ asset('frontend/assets/img/icons/services_light_icon03.png') }}" alt="">
+                                        <img class="dark" src="{{ asset('frontend/assets/img/icons/services_icon03.png') }}" alt="">
                                     </div>
                                     <h3 class="title"><a href="services-details.html">Product Design</a></h3>
                                     <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a forward-looking plan.</p>
@@ -173,12 +173,12 @@
                         <div class="col-xl-3">
                             <div class="services__item">
                                 <div class="services__thumb">
-                                    <a href="services-details.html"><img src="assets/img/images/services_img04.jpg" alt=""></a>
+                                    <a href="services-details.html"><img src="{{ asset('frontend/assets/img/images/services_img04.jpg') }}" alt=""></a>
                                 </div>
                                 <div class="services__content">
                                     <div class="services__icon">
-                                        <img class="light" src="assets/img/icons/services_light_icon04.png" alt="">
-                                        <img class="dark" src="assets/img/icons/services_icon04.png" alt="">
+                                        <img class="light" src="{{ asset('frontend/assets/img/icons/services_light_icon04.png') }}" alt="">
+                                        <img class="dark" src="{{ asset('frontend/assets/img/icons/services_icon04.png') }}" alt="">
                                     </div>
                                     <h3 class="title"><a href="services-details.html">Visual Design</a></h3>
                                     <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a forward-looking plan.</p>
@@ -195,12 +195,12 @@
                         <div class="col-xl-3">
                             <div class="services__item">
                                 <div class="services__thumb">
-                                    <a href="services-details.html"><img src="assets/img/images/services_img03.jpg" alt=""></a>
+                                    <a href="services-details.html"><img src="{{ asset('frontend/assets/img/images/services_img03.jpg') }}" alt=""></a>
                                 </div>
                                 <div class="services__content">
                                     <div class="services__icon">
-                                        <img class="light" src="assets/img/icons/services_light_icon02.png" alt="">
-                                        <img class="dark" src="assets/img/icons/services_icon02.png" alt="">
+                                        <img class="light" src="{{ asset('frontend/assets/img/icons/services_light_icon02.png') }}" alt="">
+                                        <img class="dark" src="{{ asset('frontend/assets/img/icons/services_icon02.png') }}" alt="">
                                     </div>
                                     <h3 class="title"><a href="services-details.html">Web Development</a></h3>
                                     <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a forward-looking plan.</p>
@@ -235,8 +235,8 @@
                             <div class="work__process__item">
                                 <span class="work__process_step">Step - 01</span>
                                 <div class="work__process__icon">
-                                    <img class="light" src="assets/img/icons/wp_light_icon01.png" alt="">
-                                    <img class="dark" src="assets/img/icons/wp_icon01.png" alt="">
+                                    <img class="light" src="{{ asset('frontend/assets/img/icons/wp_light_icon01.png') }}" alt="">
+                                    <img class="dark" src="{{ asset('frontend/assets/img/icons/wp_icon01.png') }}" alt="">
                                 </div>
                                 <div class="work__process__content">
                                     <h4 class="title">Discover</h4>
@@ -248,8 +248,8 @@
                             <div class="work__process__item">
                                 <span class="work__process_step">Step - 02</span>
                                 <div class="work__process__icon">
-                                    <img class="light" src="assets/img/icons/wp_light_icon02.png" alt="">
-                                    <img class="dark" src="assets/img/icons/wp_icon02.png" alt="">
+                                    <img class="light" src="{{ asset('frontend/assets/img/icons/wp_light_icon02.png') }}" alt="">
+                                    <img class="dark" src="{{ asset('frontend/assets/img/icons/wp_icon02.png') }}" alt="">
                                 </div>
                                 <div class="work__process__content">
                                     <h4 class="title">Define</h4>
@@ -261,8 +261,8 @@
                             <div class="work__process__item">
                                 <span class="work__process_step">Step - 03</span>
                                 <div class="work__process__icon">
-                                    <img class="light" src="assets/img/icons/wp_light_icon03.png" alt="">
-                                    <img class="dark" src="assets/img/icons/wp_icon03.png" alt="">
+                                    <img class="light" src="{{ asset('frontend/assets/img/icons/wp_light_icon03.png') }}" alt="">
+                                    <img class="dark" src="{{ asset('frontend/assets/img/icons/wp_icon03.png') }}" alt="">
                                 </div>
                                 <div class="work__process__content">
                                     <h4 class="title">Develop</h4>
@@ -274,8 +274,8 @@
                             <div class="work__process__item">
                                 <span class="work__process_step">Step - 04</span>
                                 <div class="work__process__icon">
-                                    <img class="light" src="assets/img/icons/wp_light_icon04.png" alt="">
-                                    <img class="dark" src="assets/img/icons/wp_icon04.png" alt="">
+                                    <img class="light" src="{{ asset('frontend/assets/img/icons/wp_light_icon04.png') }}" alt="">
+                                    <img class="dark" src="{{ asset('frontend/assets/img/icons/wp_icon04.png') }}" alt="">
                                 </div>
                                 <div class="work__process__content">
                                     <h4 class="title">Deliver</h4>
@@ -341,7 +341,7 @@
                                     <div class="portfolio__active">
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img01.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Apps Design</span>
@@ -351,7 +351,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img02.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Design</span>
@@ -361,7 +361,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img03.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>UX/UI Design</span>
@@ -371,7 +371,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img04.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Development</span>
@@ -381,7 +381,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img05.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Development</span>
@@ -391,7 +391,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img06.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Development</span>
@@ -401,7 +401,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img07.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Development</span>
@@ -421,7 +421,7 @@
                                     <div class="portfolio__active">
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img07.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Development</span>
@@ -431,7 +431,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img06.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Development</span>
@@ -441,7 +441,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img01.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Apps Design</span>
@@ -451,7 +451,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img02.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Design</span>
@@ -461,7 +461,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img03.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>UX/UI Design</span>
@@ -471,7 +471,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img04.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Development</span>
@@ -481,7 +481,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img05.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Development</span>
@@ -501,7 +501,7 @@
                                     <div class="portfolio__active">
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img06.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Development</span>
@@ -511,7 +511,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img01.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Apps Design</span>
@@ -521,7 +521,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img02.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Design</span>
@@ -531,7 +531,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img03.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>UX/UI Design</span>
@@ -541,7 +541,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img04.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Development</span>
@@ -551,7 +551,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img05.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Development</span>
@@ -561,7 +561,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img07.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Development</span>
@@ -581,7 +581,7 @@
                                     <div class="portfolio__active">
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img05.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img05.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Development</span>
@@ -591,7 +591,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img01.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img01.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Apps Design</span>
@@ -601,7 +601,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img02.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img02.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Design</span>
@@ -611,7 +611,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img03.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img03.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>UX/UI Design</span>
@@ -621,7 +621,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img04.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img04.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Development</span>
@@ -631,7 +631,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img06.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img06.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Development</span>
@@ -641,7 +641,7 @@
                                         </div>
                                         <div class="portfolio__item">
                                             <div class="portfolio__thumb">
-                                                <img src="assets/img/portfolio/portfolio_img07.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/img/portfolio/portfolio_img07.jpg') }}" alt="">
                                             </div>
                                             <div class="portfolio__overlay__content">
                                                 <span>Web Development</span>
