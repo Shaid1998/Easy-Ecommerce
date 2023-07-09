@@ -1,11 +1,13 @@
 @extends('frontend.main_master')
 @section('main')
 
+<br> 
 <!-- banner-area -->
     @include('frontend.home_all.home_slide')
 <!-- banner-area-end -->
-
-            <!-- about-area -->
+<br>
+<br>
+           <!-- about-area -->
             <section id="aboutSection" class="about">
                 <div class="container">
                     <div class="row align-items-center">
