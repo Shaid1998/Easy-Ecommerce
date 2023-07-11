@@ -10,7 +10,7 @@
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">About Page</h4>
-                    <form method="post" action="{{ route('update.slider') }}" enctype="multipart/form-data">
+                    <form method="post" action="{{ route('update.about') }}" enctype="multipart/form-data">
                         @csrf
 
                         <input type="hidden" name ="id" value ="{{ $aboutPage->id }}">
@@ -52,7 +52,7 @@
                         <div class="row mb-3"> 
                             <label for="example-text-input" class="col-sm-2 col-form-label"></label>
                             <div class="col-sm-10">
-                                <img class="rounded avatar-lg" id="imageShow" src="{{ (!empty($aboutPage->about_image))? url('upload/about_image/'.$aboutPage->about_image):url('upload/no_image.jpg') }}">
+                                <img class="rounded avatar-lg" id="imageShow" src="{{ (!empty($aboutPage->about_image))? url('uploaded/about_image/'.$aboutPage->about_image):url('uploaded/no_image.jpg') }}">
                             </div>
                         </div>
                         <!-- end row -->
