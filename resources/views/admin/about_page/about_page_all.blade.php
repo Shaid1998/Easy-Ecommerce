@@ -9,47 +9,54 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title">Home Slide Page</h4>
+                    <h4 class="card-title">About Page</h4>
                     <form method="post" action="{{ route('update.slider') }}" enctype="multipart/form-data">
                         @csrf
 
-                        <input type="hidden" name ="id" value ="{{ $homeslide->id }}">
+                        <input type="hidden" name ="id" value ="{{ $aboutPage->id }}">
                         <div class="row mb-3">
                             <label for="example-text-input" class="col-sm-2 col-form-label">Title</label>
                             <div class="col-sm-10">
-                                <input class="form-control" name="title" type="text" value="{{ $homeslide->title }}" id="example-text-input">
+                                <input class="form-control" name="title" type="text" value="{{ $aboutPage->title }}" id="example-text-input">
                             </div>
                         </div>
                         <!-- end row -->
                         <div class="row mb-3">
                             <label for="example-text-input" class="col-sm-2 col-form-label">Short Title</label>
                             <div class="col-sm-10">
-                                <input class="form-control" name="short_title" type="text" value="{{ $homeslide->shoet_title }}" id="example-text-input">
+                                <input class="form-control" name="short_title" type="text" value="{{ $aboutPage->short_title }}" id="example-text-input">
                             </div>
                         </div>
                         <!-- end row -->
                         <div class="row mb-3">
-                            <label for="example-text-input" class="col-sm-2 col-form-label">Username</label>
+                            <label for="example-text-input" class="col-sm-2 col-form-label">Short Description</label>
                             <div class="col-sm-10">
-                                <input class="form-control" name="video_url" type="text" value="{{ $homeslide->video_url }}" id="example-text-input">
+                                <textarea required= " " name= "short_description" class="foom-control" row="5" > {{ $aboutPage->short_description }} </textarea>
                             </div>
                         </div>
                         <!-- end row -->
                         <div class="row mb-3">
-                            <label for="example-text-input" class="col-sm-2 col-form-label">Slider Image</label>
+                            <label for="example-text-input" class="col-sm-2 col-form-label">Long Description</label>
                             <div class="col-sm-10">
-                                <input class="form-control" name="home_slide" type="file" id="image">
+                                <textarea id="e1m1" name="long_description"> {{ $aboutPage->long_description }} </textarea>
+                            </div>
+                        </div>
+                        <!-- end row -->
+                        <div class="row mb-3">
+                            <label for="example-text-input" class="col-sm-2 col-form-label">About Image</label>
+                            <div class="col-sm-10">
+                                <input class="form-control" name="about_image" type="file" id="image">
                             </div>
                         </div>
                         <!-- end row -->
                         <div class="row mb-3"> 
                             <label for="example-text-input" class="col-sm-2 col-form-label"></label>
                             <div class="col-sm-10">
-                                <img class="rounded avatar-lg" id="imageShow" src="{{ (!empty($homeslide->home_slide))? url('upload/home_slide/'.$homeslide->home_slide):url('upload/no_image.jpg') }}">
+                                <img class="rounded avatar-lg" id="imageShow" src="{{ (!empty($aboutPage->about_image))? url('upload/about_image/'.$aboutPage->about_image):url('upload/no_image.jpg') }}">
                             </div>
                         </div>
                         <!-- end row -->
-                        <input type="submit" class="btn btn-info waves-effect waves-light" value="Update Slide">
+                        <input type="submit" class="btn btn-info waves-effect waves-light" value="Update About Page">
                     </form>
                 </div>
             </div>
