@@ -41,7 +41,7 @@ class AboutController extends Controller
     
             return redirect()->back()->with($notification);         
         }else{
-            About::findOrFail($slide_id)->update([
+            About::findOrFail($about_id)->update([
                 'title' => $request->title,
                 'short_title' => $request->short_title,
                 'short_description' => $request->short_description,
